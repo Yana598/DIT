@@ -10,11 +10,10 @@ import user.User;
 import user.UserGenerator;
 
 
-@Feature("Login Test")
 public class LoginE2ETest extends BaseE2ETest {
 
     @Description(
-            "Test that verifies user gets redirected to 'Products' page after submitting correct login credentials")
+            "авторизация реистрация, проверка счетчика цен товаров в корзине")
     @Test
     public void testCorrectRegisterCredentials() {
         //создаем юзера
